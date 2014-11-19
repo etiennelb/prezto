@@ -36,6 +36,11 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'git' \
+  'archive' \
+  'dpkg' \
+  'pacman' \
+  'rsync' \
+  'command-not-found' \
   'tmux' \
   'prompt'
 

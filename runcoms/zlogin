@@ -15,8 +15,18 @@
 } &!
 
 # Print a random, hopefully interesting, adage.
-if (( $+commands[fortune] )); then
-  fortune -a
-  print
-fi
+#if (( $+commands[fortune] )); then
+#    if (( $+commands[cowsay] )); then
+#        if (( $+commands[lolcat] )); then
+#          fortune -s | cowsay | lolcat
+#          print
+#        else
+#          fortune -s | cowsay
+#          print
+#      fi
+#  else
+#      fortune -s
+#      print
+#    fi
+#fi
 
