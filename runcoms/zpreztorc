@@ -139,10 +139,33 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
    'root'
 #
 # Set syntax highlighting styles.
-# zstyle ':prezto:module:syntax-highlighting' styles \
-#   'builtin' 'bg=blue' \
-#   'command' 'bg=blue' \
-#   'function' 'bg=blue'
+# fg=,bg=
+# blue,bold,underline
+#
+zstyle ':prezto:module:syntax-highlighting' styles \
+   'default' 'none' \
+   'unknown-token' 'fg=red,bold' \
+   'reserved-word' 'fg=yellow' \
+   'builtin' 'fg=blue,bold' \
+   'command' 'fg=blue,bold' \
+   'alias' 'fg=blue,bold' \
+   'function' 'fg=blue,bold' \
+   'precommand' 'fg=green,underline' \
+   'commandseparator' 'none' \
+   'hashed-command' 'fg=green' \
+   'path' 'underline' \
+   'path_prefix' 'underline' \
+   'path_approx' 'fg=yellow,underline' \
+   'globbing' 'fg=blue' \
+   'history-expansion' 'fg=blue' \
+   'single-hyphen-option' 'none' \
+   'double-hyphen-option' 'none' \
+   'back-quoted-argument' 'none' \
+   'single-quoted-argument' 'fg=yellow' \
+   'double-quoted-argument' 'fg=yellow' \
+   'dollar-double-quoted-argument' 'fg=cyan' \
+   'back-double-quoted-argument' 'fg=cyan' \
+   'assign' 'none'
 
 #
 # Terminal
