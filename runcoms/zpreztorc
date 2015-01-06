@@ -23,6 +23,7 @@ zstyle ':prezto:load' zfunction 'zargs' 'zmv'
 
 # Set the Prezto modules to load (browse modules).
 # The order matters.
+#  'node' \
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
@@ -43,7 +44,6 @@ zstyle ':prezto:load' pmodule \
   'rsync' \
   'command-not-found' \
   'tmux' \
-  'node' \
   'python' \
   'prompt'
 
