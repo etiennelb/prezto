@@ -33,6 +33,7 @@ zstyle ':prezto:load' pmodule \
   'syntax-highlighting' \
   'directory' \
   'ssh' \
+  'gpg' \
   'spectrum' \
   'utility' \
   'completion' \
@@ -45,6 +46,7 @@ zstyle ':prezto:load' pmodule \
   'command-not-found' \
   'tmux' \
   'python' \
+  'node' \
   'prompt'
 
 #
