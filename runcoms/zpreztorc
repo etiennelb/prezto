@@ -90,7 +90,7 @@ zstyle ':prezto:module:history-substring-search:color' not-found 'fg=red,underli
 #   Lower case characters in the pattern match upper or lower case characters; upper case characters in the pattern still only match upper case characters.
 # a(num)
 #   Approximate matching: num errors are allowed in the string matched by the pattern.
-zstyle ':prezto:module:history-substring-search' globbing-flags 'Ia1'
+zstyle ':prezto:module:history-substring-search' globbing-flags 'I'
 
 #
 # Pacman
