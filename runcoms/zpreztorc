@@ -48,6 +48,7 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'python' \
   'node' \
+  'notify' \
   'prompt'
 
 #
