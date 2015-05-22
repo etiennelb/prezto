@@ -48,7 +48,7 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'python' \
   'node' \
-  'notify' \
+  'bgnotify' \
   'prompt'
 
 #
